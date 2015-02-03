@@ -12,7 +12,7 @@ to run a very brief test on dev.
 ```
 $ make medium
 ```
-to run a fair-sized (1490K hites in 5mins) test on dev.
+to run a fair-sized (149K hits in 5 mins) test on dev.
 
 ```
 $ make large
