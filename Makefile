@@ -2,7 +2,7 @@ SERVER_URL = https://blogs-dev.allizom.org
 
 # Hackety-hack around OSX system python bustage.
 # The need for this should go away with a future osx/xcode update.
-ARCHFLAGS = -Wno-error=unused-command-line-argument-hard-error-in-future
+ARCHFLAGS = -Wno-error=unused-command-line-argument
 INSTALL = ARCHFLAGS=$(ARCHFLAGS) ./bin/pip install
 
 .PHONY: build small medium

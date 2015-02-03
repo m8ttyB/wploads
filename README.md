@@ -19,3 +19,5 @@ $ make large
 ```
 to pound heck out of dev from AWS.  DON'T DO THIS YET.
 
+
+Paramaterized `SERVER_URL` coming next.
