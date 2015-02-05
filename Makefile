@@ -1,4 +1,4 @@
-SERVER_URL = https://blogs-dev.allizom.org
+SERVER_URL = https://blog-dev.allizom.org
 
 # Hackety-hack around OSX system python bustage.
 # The need for this should go away with a future osx/xcode update.
