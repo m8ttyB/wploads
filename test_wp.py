@@ -64,7 +64,10 @@ class TestWP(TestCase):
 		res = self.session.get(self.server_url + '/openstandard-en/')
 		self.assertEqual(res.status_code, 200)
 
-	def test_positive_search_javascript_hacks_blog(self):
+	def test_positive_search_javascript_hacks_dev_blog(self):
 		res = self.session.get('https://hacks-dev.allizom.org/?s=javascript')
 		self.assertEqual(res.status_code, 200)
 
+	def test_positive_search_javascript_hacks_prod_blog(self):
+		res = self.session.get('http://hacks.mozilla.org/')
+		self.assertEqual(res.status_code, 200)
